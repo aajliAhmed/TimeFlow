@@ -4,10 +4,10 @@ Application React Native/Expo avec un design style tableau de bord de voiture de
 
 ## Fonctionnalités
 
-- 🎯 Deux jauges circulaires (demi-cercles) pour les périodes de travail
-- ⏱️ Affichage du temps restant en temps réel (format HH:MM:SS)
-- 🎨 Design Dark Mode avec couleurs Cyan (matin) et Orange (après-midi)
-- 📊 Animations fluides avec l'API Animated de React Native
+- Deux jauges circulaires (demi-cercles) pour les périodes 
+- Affichage du temps restant en temps réel (Secandes)
+- Design Dark Mode avec couleurs Cyan (matin) et Orange (après-midi)
+- Animations fluides avec l'API Animated de React Native
 
 ## Installation
 
