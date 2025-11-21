@@ -1,0 +1,13 @@
+@echo off
+echo Arrêt du serveur Metro...
+taskkill /F /IM node.exe 2>nul
+timeout /t 2 /nobreak >nul
+echo Nettoyage du cache...
+if exist .expo rmdir /s /q .expo
+if exist node_modules\.cache rmdir /s /q node_modules\.cache
+echo Installation des dependances...
+call npm install
+echo.
+echo Démarrage d'Expo avec cache vide...
+call npx expo start --clear
+
